@@ -1,4 +1,4 @@
-$status= Get-Service "DHCP Client"
+$status= Get-Service "DHCP Client" 
 $status.Status
 
 if (-not (Get-Module -Name "Pester" -ListAvailable )) {
